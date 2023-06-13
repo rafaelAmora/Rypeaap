@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px; /*preenchemento interno da caixa*/
+  box-sizing: border-box; /*A medida do tamanho da caixa  para ser medida atraves da borda*/
+}
+body {
+  background: url(./imagens/Tela\ de\ fundo.jfif) no-repeat top center/cover;
+}
+
+.linha1 {
+  background-color: #1e1e2d;
+  padding: 16px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  box-shadow: purple inset 0 -1px 0; /*Coloca uma linha embaixo da coluna*/
+}
+.rg {
+  margin: 0px 0px 0px 110px;
+  width: 75px;
+  height: 50px;
+}
+.logo2 {
+  margin: 0px 0px 0px 15px;
+  width: 100px;
+  height: 40px;
+}
+.vazio {
+  margin: 0px 0px 0px 100px;
+}
+
+ul {
+  color: #737380;
+  list-style: none; /*Tira os pontos da lista*/
+  font-size: 19.2px;
+  text-align: center;
+
+  padding: auto;
+}
+.list ul li {
+  display: inline; /*Deixa a lista em horizontal*/
+  margin: 0px 0px 0px 25px;
+}
+.list li {
+  font-size: 19.2px;
+}
+.buttons {
+  padding: 0px 0px 0px 64px;
+}
+.list2 ul {
+  line-height: 16px; /*altura da linha*/
+
+  color: white;
+  font-size: 19.2px;
+}
+.list2 a {
+  text-decoration: none;
+}
+.registrar {
+  border: 1.5px solid purple;
+  border-radius: 5px;
+  padding: 12px 24px; /*preenchimento*/
+  height: 40px; /*Altura*/
+  width: 100%;
+  line-height: 16px;
+  cursor: pointer;
+}
+.list2 li {
+  color: white;
+
+  display: inline; /*Deixa a lista em horizontal*/
+  font: 19.2px;
+}
+.Entrar {
+  padding: 12px 24px; /*preenchimento*/
+}
+.list li:hover {
+  box-shadow: purple inset 0 -1px 0; /*Coloca uma linha embaixo da coluna*/
+  color: white;
+  transition: 0.3s;
+}
+.registrar:hover {
+  background-color: purple;
+  transition: 1s;
+}
+h1 {
+  font-size: 6.5rem;
+  font-weight: 900;
+
+  top: -36px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 114px;
+  height: 80px;
+
+  align-items: center;
+  margin-top: 90px;
+}
+.vazio2 {
+  width: 584px;
+  position: absolute;
+  top: 16%;
+  left: 13%;
+}
+.logo2 {
+  align-items: center;
+}
+.h2_text {
+  margin-top: 36px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+.h1_text {
+  font-size: 6.5rem;
+  font-weight: 900;
+  position: relative;
+  top: -36px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+.descrição {
+  width: 384px;
+  margin: 0 auto;
+  font-size: 18px;
+
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+}
+
+.tela {
+  width: 484px;
+  padding: 64px;
+  border-radius: 12px;
+  background-color: #1d2333;
+  box-shadow: 0 0 60px #0000001f;
+  position: fixed;
+  top: 20%;
+  right: 16%;
+  height: auto;
+}
+.fazer_login {
+  font-size: 26pxrem;
+  text-align: center;
+  color: #fff;
+
+  line-height: 16px; /*Altrura da linha*/
+}
+.acesso {
+  margin-top: 20px;
+  align-items: center;
+  text-decoration: none;
+}
+.acesso li {
+  border-radius: 12px;
+  width: 100%;
+  height: 54px;
+  padding: 0px 18px;
+  text-align: left;
+  color: white;
+
+  border: 1px solid #3f485f;
+  background-color: #1d2333;
+  margin-top: 14px;
+  backdrop-filter: blur(4px); /*coloca um desfoco na caixa*/
+  display: flex;
+  align-items: center;
+}
+.senha {
+  text-decoration: none;
+  color: #c72e7c;
+  font-size: 13px;
+  padding: 5px 0px;
+
+  text-transform: uppercase;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.login p {
+  width: 100%;
+  background-color: #c72e7c;
+  color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+
+  margin-top: 15px;
+  text-align: center;
+}
+.conta {
+  margin-top: 15px;
+  color: white;
+}
+.conta a {
+  color: #c72e7c;
+  text-decoration: none;
+}
